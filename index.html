@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .img{
+            width: 400px;
+        }
+    header{
+        background-color: rgb(83, 184, 0);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 170px;
+        
+    }
+    a{
+        text-decoration: none;
+        font-size: 30px;
+        color: black;
+    }
+    body{
+        margin: 0px;
+    }
+    .wont,h1{text-align: center;}
+    .wont-list,do{
+        display: flex;
+        justify-content: center;
+        gap: 50px;
+    }
+    ul{
+        list-style: none;
+    }
+    img:hover{
+        transform: scale(1.2);
+    }
+    img{
+        transition: 2s;
+        cursor:pointer;
+    }
+    .will-do{
+        display: flex;
+        justify-content: center;
+        gap: 50px;
+    }
+    h2{
+        text-align: center;
+    }
+    p{
+     font-size: 30px;
+     color: brown;
+     text-transform: uppercase;   
+    }
+    h3{
+     text-align: center;
+    }
+    div{
+        display: flex;
+        justify-content: center;
+        gap: 80px;
+    }
+    .skill li{
+        background-color: rgb(0, 255, 225);
+        font-size: 30px;
+        margin-top: 20px;
+        height: 50px;
+    }
+    .name:hover{
+        animation: name 2s;
+        cursor: pointer;
+    }
+    @keyframes name{
+        from{
+            transform: rotate(0deg);
+        }
+        to{
+            transform: rotate(360deg);
+        }
+    }
+    </style>
+</head>
+<body>
+    <header><a href="">GoIteens</a>
+        <p class="name">Sasha</p>
+  <img width="50" src="Sasha.jpeg" alt=""></header>
+  <h1>Дошка моїх мрій</h1>
+  <p class="wont">Я хочу</p>
+  <ul class="wont-list">
+    <li>
+        <img class="img" src="Photo2.jpg" alt="">
+        <p>Хороша домівка</p>
+    </li>
+    <li>
+        <img class="img" src="photo1.jpg" alt="">
+        <p>Стати програмістом</p>
+    </li>
+    <li>
+        <img class="img" src="Photo3.jpg" alt="">
+        <p>Авто мріїі</p>
+    </li>
+  </ul>
+  <h2 class="do">Для цього я зроблю</h2>
+  <ul class="will-do">
+    <li>
+        <img class="img" src="https://hea.ie/assets/uploads/2022/01/Picture-with-charts-and-Graphs-1000x500.png" alt="">
+        <p>Середній заробіток по роках</p>
+    </li>
+    <li>
+        <img class="img" src="https://hea.ie/assets/uploads/2022/01/Picture-with-charts-and-Graphs-1000x500.png" alt="">
+        <p>Можливість відкладати</p>
+    </li>
+    <li>
+        <img class="img" src="https://hea.ie/assets/uploads/2022/01/Picture-with-charts-and-Graphs-1000x500.png" alt="">
+        <p>для того я маю накопичити 1000000000</p>
+    </li>
+  </ul>
+  <h3>Для цього я розвину</h3>
+  <div>
+    <ul class="skill">
+        <li>Червень</li>
+        <li>JavaScript</li>
+        <li>Липень</li>
+        <li>Java</li>
+        <li>Серпень</li>
+        <li>Python</li>
+        <li>Вересень</li>
+        <li>Самостійність</li>
+    </ul>
+    <ul class="skill">
+        <li>Жовтень</li>
+        <li>Гнучкість</li>
+        <li>Листопад</li>
+        <li>Емоційний інтелект</li>
+        <li>Грудень</li>
+        <li>Креативність</li>
+        <li>Січень</li>
+        <li>Лідерство</li>
+    </ul>
+      <ul class="skill">
+        <li>Лютий</li>
+        <li>Networking</li>
+        <li>Березень</li>
+        <li>Особистий бренд</li>
+        <li>Квітень</li>
+        <li>Управління фінансами</li>
+        <li>Травень</li>
+        <li>Публічні виступи</li>
+    </ul>
+  </div>
+</body>
+</html>
